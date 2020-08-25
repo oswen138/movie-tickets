@@ -12,41 +12,41 @@
     <h1>Movie Tickets</h1>
   </div>
   <div class="container">
-    <h2></h2>
+    <h2>Fill out Form below:</h2>
     <form id="survey">
-    <div class="card">
-      <div class="dropdown">
-        <label for="movie">What movie would you like to see?</label>
-        <select id="movie">
-          <option value="fastFuriousXXII">A. Fast and Furious XXII</option>
-          <option value="">B. Microsoft Applications & Game Development</option>
-          <option value="">C. General Stuff</option>
-          <option value="">D. System & Network Programming</option>
-        </select>
+      <div class="card">
+        <div class="dropdown">
+          <label for="movie">What movie would you like to see?</label>
+          <select id="movie">
+            <option value="0.7">A. Fast and Furious XXII</option>
+            <option value="5.0">B. ASDF</option>
+            <option value="0.9">C. Funny Funny</option>
+            <option value="1.1">D. Jump Scares</option>
+          </select>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <div class="dropdown">
-        <label for="time">What time would you like to see your movie?</label>
-        <select id="time">
-          <option value="8">A. Matinee</option>
-          <option value="12">B. Regular</option>
-          <option value="14">C. Night</option>
-        </select>
+      <div class="card">
+        <div class="dropdown">
+          <label for="time">What time would you like to see your movie?</label>
+          <select id="time">
+            <option value="8">A. Matinee</option>
+            <option value="12">B. Regular</option>
+            <option value="14">C. Night</option>
+          </select>
+        </div>
       </div>
-    </div>
-    <div class="card">
-      <div class="dropdown">
-        <label for="age">Enter Age</label>
-        <input type="number" name="age" value="">
+      <div class="card">
+        <div class="dropdown">
+          <label for="age">Enter Age</label>
+          <input type="number" name="age" value="" id="age">
+        </div>
       </div>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+
+    <div id="output">
+      <p>Your movie ticket will cost <span class="price"></span></p>
     </div>
-    <button type="submit" class="btn btn-success">Submit</button>
-    </form> 
   </div>
 </body>
 </html>
-
-
-
-  
